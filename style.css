@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron:500);
+
+
+body {
+  /*original image source
+  background-image: url('http://hdimagesnew.com/wp-content/uploads/2015/11/Abstract-HD-Wallpaper-1920X1080-14.jpg');
+  compressed image*/
+  background-image: url('http://s23.postimg.org/fvt1rgghn/image.jpg');
+  background-color: #000000;
+  background-repeat: no-repeat; 
+  background-attachment:fixed;
+  background-size: cover;
+  z-index: -5;
+}
+
+.navbar-default {
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.navbar-header h1 {
+  font-family: 'Orbitron', sans-serif;
+  color: #C0C0C0;
+  font-size: 150%;
+
+}
+
+.centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.quotes {
+  background-color: #000000;
+  border-radius: 10px;
+  opacity: 0.5;
+  padding: 20px;
+  color: #C0C0C0;
+  min-height: 260px;
+}
+
+.quotes img {
+  margin: 0px 0px 20px 10px;
+  border: 5px solid #C0C0C0;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+
+.aligncol {
+  min-height: 130px;
+}
+
+.btn-primary {
+  background-color: #C0C0C0;
+  opacity: 0.7;
+  color: #000000;
+  border-color: #000000;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+  background-color: #000000;
+  color: #C0C0C0;
+  opacity: 0.7;
+  border-color: #C0C0C0;
+}
